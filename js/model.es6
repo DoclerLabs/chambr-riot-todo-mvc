@@ -14,7 +14,7 @@ class Todo extends Chambr.Model {
     @Default(0)
     get uncompleted(){
         return this.modelData.filter(d => !d.completed).length
-    }z
+    }
 
 
     create(value){
@@ -51,7 +51,6 @@ class Todo extends Chambr.Model {
 
     @Peel('item->index', '0:target->value')
     edit(index, value){
-        console.log(arguments)
         return this.update(index, { value })
     }
 
