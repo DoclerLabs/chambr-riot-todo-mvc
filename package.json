@@ -23,7 +23,7 @@
     "babel-runtime": "^6.6.1",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
-    "chambr": "git+https://e078c02683e0eb103f800a220fdf223cbd644149:x-oauth-basic@github.com/DoclerLabs/Chambr.git",
+    "chambr": "git+https://github.com/wintercounter/Chambr.git",
     "core-decorators": "^0.12.2",
     "gulp": "^3.9.1",
     "gulp-riot": "^0.4.9",
@@ -32,6 +32,6 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {
-    "chambr": "git+https://e078c02683e0eb103f800a220fdf223cbd644149:x-oauth-basic@github.com/DoclerLabs/Chambr.git"
+    "chambr": "git+https://github.com/wintercounter/Chambr.git"
   }
 }
